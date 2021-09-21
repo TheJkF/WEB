@@ -46,7 +46,7 @@ nav{
 	float: left;
 	width: calc(80% - 80px);
 	background: green;
-	min-height: 420px;
+	min-height: 500px;
 	padding: 40px;
 }
 
