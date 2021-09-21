@@ -1,0 +1,85 @@
+*{
+	margin: 0px;/* margenes entre secciones */
+	padding: 0px;/* margen interno de cada seccion */
+}
+
+
+body{
+	background: lightgray;
+	font-family: Arial;
+}
+/* comentario */
+#container{
+	width: 70%;
+	margin: 0px auto;/* centra todo lo que puede */
+	border: 1px solid black;/* hace un borde al rededor de la seccion */
+}
+
+header{
+	background: red;
+	height: 100px;
+	width: 100%;
+	margin: 0px;
+	text-align: center;/* centrar derecha a izquierda */
+	line-height: 100px;/* centra de arriba a abajo */
+	color: white;
+	border-bottom: 3px dashed black;/* border en un lugar o entero punteado */
+}
+
+nav ul li{
+	float: left;
+	list-style: none;
+	margin: 10px;
+}
+.clearfix{
+	clear: both;
+}
+
+nav{
+	background: lightblue;
+	height: 50px;
+	line-height: 30px;
+	border-bottom: 1px solid black;
+}
+
+#content{
+	float: left;
+	width: calc(80% - 80px);
+	background: green;
+	min-height: 420px;
+	padding: 40px;
+}
+
+.article{
+	color: white;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid limegreen;
+}
+
+.article:first-child{
+	border-top: 10px;
+	padding-top: 1px solid limegreen;
+}
+
+.article:h2{
+	font-size: 50px;
+}
+
+aside{
+	float: right;
+	width: calc(20% - 20px);
+	padding-right: 10px;
+	padding-left: 10px;
+	min-height: 500px;
+	background: orange;
+}
+
+footer{
+	background: black;
+	color: white;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
