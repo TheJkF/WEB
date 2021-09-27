@@ -189,3 +189,14 @@ footer{
     margin: 2rem;
     background-color: #0C578F;
 }
+
+.videos{
+	width: 80%;
+	margin: auto;
+	border: 2px solid rgb(163, 116, 27);
+	border-radius: 2px;
+
+}
+
+
+
