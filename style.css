@@ -5,19 +5,41 @@
 
 
 body{
-	background: lightgray;
+	background: linear-gradient(#115591,#119143);
 	font-family: Arial;
 }
 
 #container{
+	text-align: center;
 	width: 100%;
 	margin: 0px auto;/* centra todo lo que puede */
-	border: 1px solid black;/* hace un borde al rededor de la seccion */
+	border: 5px solid black;/* hace un borde al rededor de la seccion */
+}
+.mapdiv {
+	width: 35%;
+	margin: auto;
 }
 
+.mapdiv path{
+	fill: #92631D;
+	stroke: #8F8F8F;
+	stroke-width: 3px;
+}
+
+.mapdiv :hover{
+	fill: #800000;
+}
 
 .foto1{
 	float: left;
+}
+
+.foto2{
+	width: 50%;
+	height: 50%;
+	border: 2px solid #ccc;
+	border-radius: 2px;
+	
 }
 
 input[type=button]{
@@ -26,7 +48,7 @@ input[type=button]{
   	border: none;
   	color: white;
   	padding: 8px 16px;
-  	margin: 4px 2px;;
+  	margin: 4px 2px;
 }
 
 input[type=text] {
@@ -59,18 +81,15 @@ input[type=submit] {
 }
 
 header{
-	background: skyblue;
 	height: 10%;
 	width: 100%;
 	margin: 0px;
 	text-align: center;/* centrar derecha a izquierda */
 	line-height: 100px;/* centra de arriba a abajo */
 	color: white;
-	border-bottom: 5px solid black;/* border en un lugar o entero punteado */
 }
 
 nav ul li{
-	background: skyblue;
 	float: right;
 	list-style: none;
 	margin-top: -5px; /*Estas 4 lineas usadas para poder colocar bien el menu en la cabecera*/
@@ -84,7 +103,6 @@ nav ul li{
 }
 
 nav{
-	background: skyblue;
 	height: 0px;
 	line-height: 0px;
 	font-size: small;
@@ -95,7 +113,6 @@ nav{
 
 #content{
 	width: calc(100% - 80px);
-	background: #119111;
 	min-height: 500px;
 	padding: 40px;
 }
@@ -103,13 +120,13 @@ nav{
 .article{
 	color: white;
 	margin-top: 15px;
+	margin: auto;
 }
 
 .separator{
 	margin-top: 15px;
 	margin-bottom: 15px;
 	margin-left: 0px;
-	border-bottom: 1px solid limegreen;
 }
 
 .article:h2{
@@ -119,8 +136,56 @@ nav{
 
 footer{
 	background: black;
-	color: white;
-	text-align: center;
-	height: 250%;
-	line-height: 250%;
+	height: 100px;
+}
+
+.social{
+	float: right;
+	width: 2%;
+}
+
+.menu{
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 100%;
+	background-color: white;
+	color: darkgray;
+}
+
+.End{
+	color: #4c6ef5;
+}
+
+.AExperience{
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+}
+
+.Videos-Photo{
+	-webkit-column-count: 5; /* Chrome, Safari, Opera */
+    -moz-column-count: 5; /* Firefox */
+    column-count: 5;
+
+    -webkit-column-gap: 10%; /* Chrome, Safari, Opera */
+    -moz-column-gap: 10%; /* Firefox */
+    column-gap: 10%;
+    
+    -webkit-column-gap: 2rem; /* Chrome, Safari, Opera */
+    -moz-column-gap: 2rem; /* Firefox */
+    column-gap: 2rem;
+    
+    -webkit-column-rule: 3% solid rgb(75, 180, 149)  ; /* Chrome, Safari, Opera */
+    -moz-column-rule: 3% solid rgb(75, 180, 149)  ; /* Firefox */
+    column-rule: 3% solid rgb(75, 180, 149)  ;
+    
+    -webkit-column-rule: 0.5rem solid rgb(75, 180, 149)  ; /* Chrome, Safari, Opera */
+    -moz-column-rule: 0.5rem solid rgb(75, 180, 149)  ; /* Firefox */
+    column-rule: 0.5rem solid rgb(75, 180, 149)  ;
+    
+    margin: 10%;
+    margin: 2rem;
+    background-color: #0C578F;
 }
