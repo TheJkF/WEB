@@ -8,44 +8,94 @@ body{
 	background: lightgray;
 	font-family: Arial;
 }
-/* comentario */
+
 #container{
-	width: 70%;
+	width: 100%;
 	margin: 0px auto;/* centra todo lo que puede */
 	border: 1px solid black;/* hace un borde al rededor de la seccion */
 }
 
+
+.foto1{
+	float: left;
+}
+
+input[type=button]{
+	float: right;
+	background-color: #4CAF50;
+  	border: none;
+  	color: white;
+  	padding: 8px 16px;
+  	margin: 4px 2px;;
+}
+
+input[type=text] {
+	width: 20%;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 10px;
+	background-color: white;
+	padding: 4px 12px 4px 12px;
+	transition: width 0.4s ease-in-out;
+	position: relative;
+	right: 0px;
+}
+
+input[type=text]:focus {
+	border: 3px solid #555;
+ 	width: 50%;
+}
+
+input[type=submit] {
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 10px;
+	background-color: white;
+	padding: 4px 12px 4px 12px;
+	position: relative;
+	right: 0px;
+}
+
 header{
-	background: red;
-	height: 100px;
+	background: skyblue;
+	height: 10%;
 	width: 100%;
 	margin: 0px;
 	text-align: center;/* centrar derecha a izquierda */
 	line-height: 100px;/* centra de arriba a abajo */
 	color: white;
-	border-bottom: 3px dashed black;/* border en un lugar o entero punteado */
+	border-bottom: 5px solid black;/* border en un lugar o entero punteado */
 }
 
 nav ul li{
-	float: left;
+	background: skyblue;
+	float: right;
 	list-style: none;
-	margin: 10px;
+	margin-top: -5px; /*Estas 4 lineas usadas para poder colocar bien el menu en la cabecera*/
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
 }
+
 .clearfix{
 	clear: both;
 }
 
 nav{
-	background: lightblue;
-	height: 50px;
-	line-height: 30px;
-	border-bottom: 1px solid black;
+	background: skyblue;
+	height: 0px;
+	line-height: 0px;
+	font-size: small;
 }
 
+
+
+
 #content{
-	float: left;
-	width: calc(80% - 80px);
-	background: green;
+	width: calc(100% - 80px);
+	background: #119111;
 	min-height: 500px;
 	padding: 40px;
 }
@@ -53,33 +103,24 @@ nav{
 .article{
 	color: white;
 	margin-top: 15px;
-	margin-bottom: 15px;
-	padding-bottom: 10px;
-	border-bottom: 1px solid limegreen;
 }
 
-.article:first-child{
-	border-top: 10px;
-	padding-top: 1px solid limegreen;
+.separator{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	border-bottom: 1px solid limegreen;
 }
 
 .article:h2{
 	font-size: 50px;
 }
 
-aside{
-	float: right;
-	width: calc(20% - 20px);
-	padding-right: 10px;
-	padding-left: 10px;
-	min-height: 500px;
-	background: orange;
-}
 
 footer{
 	background: black;
 	color: white;
 	text-align: center;
-	height: 50px;
-	line-height: 50px;
+	height: 250%;
+	line-height: 250%;
 }
