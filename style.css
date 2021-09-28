@@ -162,6 +162,31 @@ footer{
 	padding-top: 1%;
 }
 
+.Experiences{
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+
+    -webkit-column-gap: 20%; /* Chrome, Safari, Opera */
+    -moz-column-gap: 20%; /* Firefox */
+    column-gap: 20%;
+    
+    -webkit-column-gap: 2rem; /* Chrome, Safari, Opera */
+    -moz-column-gap: 2rem; /* Firefox */
+    column-gap: 2rem;
+    
+    -webkit-column-rule: 5% solid rgb(75, 180, 149)  ; /* Chrome, Safari, Opera */
+    -moz-column-rule: 5% solid rgb(75, 180, 149)  ; /* Firefox */
+    column-rule: 5% solid rgb(75, 180, 149)  ;
+    
+    -webkit-column-rule: 0.5rem solid rgb(75, 180, 149)  ; /* Chrome, Safari, Opera */
+    -moz-column-rule: 0.5rem solid rgb(75, 180, 149)  ; /* Firefox */
+    column-rule: 0.5rem solid rgb(75, 180, 149)  ;
+    
+    margin: 20%;
+    margin: 2rem;
+}
+
 .Videos-Photo{
 	-webkit-column-count: 5; /* Chrome, Safari, Opera */
     -moz-column-count: 5; /* Firefox */
@@ -202,7 +227,7 @@ footer{
 }
 
 .TOS{
-	text-align: left;
+	text-align: center;
 	float: left;
 	height: auto;
 	width: 95%;
@@ -210,3 +235,4 @@ footer{
 	padding-left: 1%;
 	padding-right: 1%;
 }
+
