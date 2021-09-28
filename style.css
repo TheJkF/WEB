@@ -35,11 +35,9 @@ body{
 }
 
 .foto2{
-	width: 50%;
-	height: 50%;
 	border: 2px solid #ccc;
 	border-radius: 2px;
-	
+	margin: auto;
 }
 
 input[type=button]{
@@ -158,8 +156,8 @@ footer{
 }
 
 .AExperience{
-	padding-right: 5%;
-	padding-left: 5%;
+	padding-right: 8%;
+	padding-left: 8%;
 	padding-bottom: 1%;
 	padding-top: 1%;
 }
@@ -187,16 +185,28 @@ footer{
     
     margin: 10%;
     margin: 2rem;
-    background-color: #0C578F;
 }
 
 .videos{
 	width: 80%;
-	margin: auto;
+	margin-top: 10%;
 	border: 2px solid rgb(163, 116, 27);
 	border-radius: 2px;
+	margin-bottom: 10%;
 
 }
 
+.Description{
+	padding: 1%;
+	font-size: 110%;
+}
 
-
+.TOS{
+	text-align: left;
+	float: left;
+	height: auto;
+	width: 95%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
